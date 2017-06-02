@@ -16,14 +16,13 @@
     </style>
 </head>
 <body>
-{{result}}
     <canvas id="myChart" width="400" height="400"></canvas>
     <div class="date">
         <form method="POST">
             {% csrf_token %}
-            <label for="date">Meeting Date : </label>
+            <label for="date">Choose Date : </label>
             <input id="date" name="date" type="date" value="{{choosedDate}}"
-                onchange="this.form.submit()"/><!--value="{% now 'Y-m-d' %}"-->
+                onchange="this.form.submit()"/>
         </form>
 
     </div>
