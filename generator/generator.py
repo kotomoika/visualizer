@@ -8,7 +8,7 @@ import json
 with open('config.json') as data_file:
     config = json.load(data_file)
 
-client = MongoClient()
+client = MongoClient("mongodb://admin:admin123@ds161121.mlab.com:61121/sensory_data")
 db = client.sensory_data
 
 if __name__ == "__main__":

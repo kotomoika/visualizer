@@ -4,7 +4,7 @@ from pymongo import MongoClient
 from django.shortcuts import render
 from datetime import datetime
 
-client = MongoClient()
+client = MongoClient("mongodb://admin:admin123@ds161121.mlab.com:61121/sensory_data")
 db = client.sensory_data
 
 
