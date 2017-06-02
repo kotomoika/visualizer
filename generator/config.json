@@ -1,0 +1,7 @@
+{
+    "max_longitude": 200,
+    "min_longitude": 10,
+    "max_latitude": 300,
+    "min_latitude": 5,
+    "period": 5
+}
